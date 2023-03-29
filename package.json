@@ -1,0 +1,12 @@
+{
+  "name": "project_14-hrnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "lighthouse --screenEmulation.disabled --throttling-method=provided --no-emulatedUserAgent --throttling.cpuSlowdownMultiplier=6 http://127.0.0.1:8080 --output=html,json --output-path=lighthouseReports/putTheName --locale=fr --save-assets --view"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
