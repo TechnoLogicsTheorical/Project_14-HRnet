@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-
 const Head = styled.header`
   display: flex;
   flex-direction: column;
@@ -21,7 +20,7 @@ export default function Header() {
             <WebsiteTitle to='/'>
                 <h1>HRnet</h1>
             </WebsiteTitle>
-            <NavLink to='/add'>View Current Employees</NavLink>
+            <NavLink to='/'>View Current Employees</NavLink>
         </Head>
     );
 }

@@ -1,8 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import Root from './rootLayout.jsx';
-import ListEmployee from '../Layouts/ListEmployee.jsx';
-import AddEmployee from '../Layouts/AddEmployee.jsx';
+import Root from '../rootLayout.jsx';
+import ListEmployee from '../../Layouts/ListEmployee.jsx';
+import AddEmployee from '../../Layouts/AddEmployee.jsx';
+import Error from '../../Layouts/Error.jsx';
 
 export const routerPaths = createBrowserRouter([
         {
@@ -17,6 +18,10 @@ export const routerPaths = createBrowserRouter([
                     path: '/add',
                     element: <AddEmployee />,
                 },
+                {
+                    path: '*',
+                    element: <Error />
+                }
             ],
         },
     ],
