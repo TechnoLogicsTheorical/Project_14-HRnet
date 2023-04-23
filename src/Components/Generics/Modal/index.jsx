@@ -1,36 +1,39 @@
-import React from 'react';
-import ReactModal from 'react-modal';
+import React from "react";
+import "./index.css";
 
-import styled from 'styled-components';
-import CloseImage from '../../../Assets/img/close-button.png';
+/** Simple Index with close button into header
+ * and content (information to display) into body
+ */
 
-const ClosedButton = styled.button`
-  width: 64px;
-  height: 64px;
-  appearance: none;
-  border: none;
-  border-radius: 50px;
-  background-color: #82878c;
-  &:hover {
-    background-color: #82878c;
-    border: 1px solid gray;
-  }
-`;
-const CloseIcon = styled.img`
-  width: 32px;
-  height: 32px;
-`;
-
-const Modal = styled(ReactModal)`
-    
-`;
-
-export default function ConfirmModal({ isOpen, closeFunction }) {
+export default function Modal({ isOpen, closeModal, children, style, className }) {
+    if (!isOpen) {
+        return null;
+    }
     return (
-        <Modal isOpen={isOpen}>
-            <ClosedButton onClick={closeFunction}>
-                <CloseIcon src={CloseImage} />
-            </ClosedButton>
-        </Modal>
-    )
-}
+        <div className={`modal ${className ? className : ""}`} style={style}>
+            <div className="modal-content">
+                <div className="modal-header">
+                    <button className="modal-btn" onClick={closeModal}>
+                        <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="times"
+                            class="svg-inline--fa fa-times fa-w-11"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 352 512"
+                            className="svg-modal-btn"
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+                <div className="modal-body">{children}</div>
+            </div>
+        </div>
+    );
+};

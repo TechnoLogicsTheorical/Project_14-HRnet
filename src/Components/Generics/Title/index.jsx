@@ -1,7 +1,21 @@
 import React from 'react';
+import Typography from '@mui/material/Typography';
 
-export default function Title({name}) {
+/**
+ * Composant de titre
+ * @param {number} level Nombre entre 1 et 6 qui détermine la taille du titre
+ * @param {string} name Chaine de caractère détermine le nom du titre
+ * @returns {JSX.Element}
+ * @constructor
+ */
+export default function Title({level, name}) {
     return (
-        <h2>{name}</h2>
+        <Typography
+            variant={'h' + String(level)}
+            m={3}
+            align={'center'}
+        >
+            {name}
+        </Typography>
     )
 }
