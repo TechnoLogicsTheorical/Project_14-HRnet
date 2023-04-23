@@ -12,11 +12,11 @@ export const routerPaths = createBrowserRouter([
             children: [
                 {
                     path: '/',
-                    element: <ListEmployee />,
+                    element: <AddEmployee />,
                 },
                 {
-                    path: '/add',
-                    element: <AddEmployee />,
+                    path: '/list',
+                    element: <ListEmployee />,
                 },
                 {
                     path: '*',
