@@ -5,12 +5,20 @@ import "./index.css";
  * and content (information to display) into body
  */
 
-export default function Modal({ isOpen, closeModal, children, style, className }) {
+/**
+ * Renvoie les éléments HTML d'un composant Modale
+ * @param {boolean} isOpen Un state correspondant à un booléen permettant d'ouvrir ou non la modale
+ * @param {function} closeModal Une fonction qui sera déclenchée lors du click
+ * @param {JSX.Element} children Tous les éléments JSX ou HTML enfants qui seront inclus dans le contenu de la modale
+ * @returns {JSX.Element|null}
+ * @constructor
+ */
+export default function Modal({ isOpen, closeModal, children }) {
     if (!isOpen) {
         return null;
     }
     return (
-        <div className={`modal ${className ? className : ""}`} style={style}>
+        <div className="modal">
             <div className="modal-content">
                 <div className="modal-header">
                     <button className="modal-btn" onClick={closeModal}>
