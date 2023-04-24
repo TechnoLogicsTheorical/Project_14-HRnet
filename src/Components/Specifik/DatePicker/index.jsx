@@ -14,6 +14,10 @@ const DatePickerElement = styled(DatePicker)`
 
 export default function DatePickerInput({stateProp, changeFunction}) {
     return (
-        <DatePickerElement selected={stateProp} onChange={changeFunction} />
+        <DatePickerElement
+            selected={stateProp}
+            onChange={changeFunction}
+            required
+        />
     )
 }
