@@ -7,13 +7,13 @@ import { addEmployee } from '../../../utils/Redux/employee/employeeSlice.js';
 import { statesList } from '../../../utils/Constants/statesList.js';
 import { departmentList } from '../../../utils/Constants/departmentList.js';
 
-import Title from '../../Generics/Title';
-import Modal from '../../Generics/Modal';
+import { Modal } from 'react_modal_for_hrnet';
 
 import Select from '../FormSelect';
 import DatePickerInput from '../DatePicker';
 
 import Employee from '../../../utils/Functions/employeeObject.js';
+import { useNavigate } from 'react-router-dom';
 
 const FormContainer = styled.form`
   display: flex;
@@ -60,6 +60,7 @@ const FieldSetElement = styled.fieldset`
 `;
 
 export default function Form() {
+    const navigate = useNavigate();
     function handleSubmit(event) {
         event.preventDefault();
 
@@ -87,9 +88,10 @@ export default function Form() {
     const [startDate, setStartDate] = useState(new Date());
     const [street, setStreet] = useState('');
     const [city, setCity] = useState('');
-    const [state, setState] = useState('');
     const [zipCode, setZipCode] = useState('');
-    const [department, setDepartment] = useState('');
+
+    const [state, setState] = useState('Alabama');
+    const [department, setDepartment] = useState('Sales');
 
     // Modal States
     const [isOpen, setIsOpen] = useState(false);
@@ -98,7 +100,6 @@ export default function Form() {
     const dispatch = useDispatch();
     return (
         <>
-            <Title name={'Create Employee'} level={4} />
             <FormContainer onSubmit={handleSubmit}>
                 <FormLabelContainer>
                     <label htmlFor="first-name">First Name</label>
@@ -108,6 +109,7 @@ export default function Form() {
                         placeholder="John"
                         onChange={(event) => setFirstName(event.target.value)}
                         value={firstName}
+                        required
                     />
                 </FormLabelContainer>
 
@@ -119,6 +121,7 @@ export default function Form() {
                         placeholder="Doe"
                         onChange={(event) => setLastName(event.target.value)}
                         value={lastName}
+                        required
                     />
                 </FormLabelContainer>
 
@@ -143,6 +146,7 @@ export default function Form() {
                             placeholder="25, London Place"
                             onChange={(event) => setStreet(event.target.value)}
                             value={street}
+                            required
                         />
                     </FormLabelContainer>
 
@@ -154,6 +158,7 @@ export default function Form() {
                             placeholder="Burginiam"
                             onChange={(event) => setCity(event.target.value)}
                             value={city}
+                            required
                         />
                     </FormLabelContainer>
 
@@ -165,6 +170,7 @@ export default function Form() {
                             arrayList={statesList}
                             onChange={(event) => setState(event.target.value)}
                             value={state}
+                            required
                         />
                     </FormLabelContainer>
 
@@ -176,6 +182,7 @@ export default function Form() {
                             placeholder="55332"
                             onChange={(event) => setZipCode(event.target.value)}
                             value={zipCode}
+                            required
                         />
                     </FormLabelContainer>
                 </FieldSetElement>
@@ -194,7 +201,14 @@ export default function Form() {
                 <FormSubmitButton type='submit' value='Save' />
             </FormContainer>
 
-            <Modal isOpen={isOpen} closeModal={() => setIsOpen(false)} className="className01">
+            <Modal
+                isOpen={isOpen}
+                closeModal={() => {
+                    setIsOpen(false)
+                    navigate('/list');
+                    }
+                }
+            >
                 {"Employee Created!"}
             </Modal>
         </>
