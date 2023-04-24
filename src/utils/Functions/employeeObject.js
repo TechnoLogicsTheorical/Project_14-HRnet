@@ -1,3 +1,7 @@
+function convertDate(date) {
+    return new Date(date).toLocaleDateString();
+}
+
 export default function Employee(
     firstName,
     lastName,
@@ -12,8 +16,8 @@ export default function Employee(
     return {
         firstName: firstName,
         lastName: lastName,
-        birthDate: birthdayDate,
-        startDate: startDate,
+        birthDate: convertDate(birthdayDate),
+        startDate: convertDate(startDate),
         street: street,
         city: city,
         states: states,
