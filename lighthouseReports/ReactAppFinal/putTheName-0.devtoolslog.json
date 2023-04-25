@@ -1,0 +1,2296 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "09BDD781B57CDD8F330999D0B2DDA5E0",
+      "name": "commit",
+      "timestamp": 1157149.616332
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "09BDD781B57CDD8F330999D0B2DDA5E0",
+      "name": "DOMContentLoaded",
+      "timestamp": 1157149.61642
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "09BDD781B57CDD8F330999D0B2DDA5E0",
+      "name": "load",
+      "timestamp": 1157149.616876
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "09BDD781B57CDD8F330999D0B2DDA5E0",
+      "name": "networkAlmostIdle",
+      "timestamp": 1157149.618414
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "09BDD781B57CDD8F330999D0B2DDA5E0",
+      "name": "networkIdle",
+      "timestamp": 1157149.618414
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157149.842462,
+      "wallTime": 1682344486.873295,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Document",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157149.843926
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Length": "614",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 24 Apr 2023 13:54:46 GMT",
+        "ETag": "W/\"266-t9ateHxIzd0jT7CwUtGRuHqXgrA\"",
+        "Keep-Alive": "timeout=5",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: text/html; charset=utf-8\r\nAccept-Ranges: bytes\r\nContent-Length: 614\r\nETag: W/\"266-t9ateHxIzd0jT7CwUtGRuHqXgrA\"\r\nVary: Accept-Encoding\r\nDate: Mon, 24 Apr 2023 13:54:46 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157149.850533,
+      "type": "Document",
+      "response": {
+        "url": "http://127.0.0.1:3000/",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Access-Control-Allow-Methods": "*",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "keep-alive",
+          "Content-Length": "614",
+          "Content-Type": "text/html; charset=utf-8",
+          "Date": "Mon, 24 Apr 2023 13:54:46 GMT",
+          "ETag": "W/\"266-t9ateHxIzd0jT7CwUtGRuHqXgrA\"",
+          "Keep-Alive": "timeout=5",
+          "Vary": "Accept-Encoding",
+          "X-Powered-By": "Express"
+        },
+        "mimeType": "text/html",
+        "connectionReused": true,
+        "connectionId": 28,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 373,
+        "timing": {
+          "requestTime": 1157149.843926,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 1.761,
+          "sendEnd": 2.201,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 5.128
+        },
+        "responseTime": 1682344486878.982,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "init",
+      "timestamp": 1157149.856381
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.executionContextsCleared",
+    "params": {},
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "9E86C7606FC0604F9251F1CDAD7315FC",
+        "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+        "url": "http://127.0.0.1:3000/",
+        "domainAndRegistry": "",
+        "securityOrigin": "http://127.0.0.1:3000",
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "SecureLocalhost",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 7,
+        "origin": "http://127.0.0.1:3000",
+        "name": "",
+        "uniqueId": "8904930744547103846.-8944714127702265979",
+        "auxData": {
+          "isDefault": true,
+          "type": "default",
+          "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 8,
+        "origin": "://",
+        "name": "__puppeteer_utility_world__",
+        "uniqueId": "271997272564195654.1813997260842227491",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157149.877655,
+      "dataLength": 614,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "17728.2",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/static/js/bundle.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "Referer": "http://127.0.0.1:3000/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157149.87911,
+      "wallTime": 1682344486.909917,
+      "initiator": {
+        "type": "parser",
+        "url": "http://127.0.0.1:3000/",
+        "lineNumber": 11,
+        "columnNumber": 42
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157149.864263,
+      "encodedDataLength": 987,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "17728.2",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Referer": "http://127.0.0.1:3000/",
+        "Sec-Fetch-Dest": "script",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157149.880316
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "PreflightWarn"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "17728.2",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript; charset=utf-8",
+        "Date": "Mon, 24 Apr 2023 13:54:46 GMT",
+        "ETag": "W/\"3e5d21-ZBjj6KzcOkvQ/ZifcKqd6K5hB7g\"",
+        "Keep-Alive": "timeout=5",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: application/javascript; charset=utf-8\r\nAccept-Ranges: bytes\r\nETag: W/\"3e5d21-ZBjj6KzcOkvQ/ZifcKqd6K5hB7g\"\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 24 Apr 2023 13:54:46 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "17728.2",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157149.899886,
+      "type": "Script",
+      "response": {
+        "url": "http://127.0.0.1:3000/static/js/bundle.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 24 Apr 2023 13:54:46 GMT",
+          "Content-Encoding": "gzip",
+          "ETag": "W/\"3e5d21-ZBjj6KzcOkvQ/ZifcKqd6K5hB7g\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "application/javascript; charset=utf-8",
+          "Access-Control-Allow-Origin": "*",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 28,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 420,
+        "timing": {
+          "requestTime": 1157149.880316,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.99,
+          "sendEnd": 1.225,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 18.19
+        },
+        "responseTime": 1682344486928.582,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.900039,
+      "dataLength": 109568,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.908944,
+      "dataLength": 72792,
+      "encodedDataLength": 49176
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.911425,
+      "dataLength": 94994,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.914663,
+      "dataLength": 65536,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.918457,
+      "dataLength": 148276,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.924164,
+      "dataLength": 85111,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.927445,
+      "dataLength": 126164,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.929993,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.931589,
+      "dataLength": 16113,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.939192,
+      "dataLength": 59930,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.939725,
+      "dataLength": 70696,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.944163,
+      "dataLength": 86550,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.948132,
+      "dataLength": 137550,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.951942,
+      "dataLength": 131072,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.958737,
+      "dataLength": 228796,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.966694,
+      "dataLength": 170008,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.970079,
+      "dataLength": 65830,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.973784,
+      "dataLength": 71261,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.977268,
+      "dataLength": 102695,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.979965,
+      "dataLength": 76975,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.982931,
+      "dataLength": 69151,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.989723,
+      "dataLength": 42548,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.991148,
+      "dataLength": 99953,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.996855,
+      "dataLength": 65665,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157149.998321,
+      "dataLength": 78151,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.005334,
+      "dataLength": 79944,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.007805,
+      "dataLength": 87708,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.012367,
+      "dataLength": 80412,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.019554,
+      "dataLength": 65536,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.022875,
+      "dataLength": 109073,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.029184,
+      "dataLength": 91674,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.030583,
+      "dataLength": 81377,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.035886,
+      "dataLength": 65536,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.03818,
+      "dataLength": 85113,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.047603,
+      "dataLength": 93131,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.048186,
+      "dataLength": 77663,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.051881,
+      "dataLength": 65536,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.053616,
+      "dataLength": 73577,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.060307,
+      "dataLength": 65160,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.061636,
+      "dataLength": 69667,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.068449,
+      "dataLength": 64713,
+      "encodedDataLength": 32784
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.06984,
+      "dataLength": 61613,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.074777,
+      "dataLength": 65536,
+      "encodedDataLength": 16392
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.076217,
+      "dataLength": 20528,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.080813,
+      "dataLength": 65536,
+      "encodedDataLength": 16399
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.083958,
+      "dataLength": 231944,
+      "encodedDataLength": 24742
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.086925,
+      "dataLength": 45175,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "17728.2",
+      "timestamp": 1157150.081323,
+      "encodedDataLength": 746417,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketCreated",
+    "params": {
+      "requestId": "17728.4",
+      "url": "ws://127.0.0.1:3000/ws",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "WebSocketClient",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 88630,
+              "columnNumber": 18
+            },
+            {
+              "functionName": "initSocket",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 90543,
+              "columnNumber": 11
+            },
+            {
+              "functionName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 89021,
+              "columnNumber": 54
+            },
+            {
+              "functionName": "options.factory",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 95598,
+              "columnNumber": 30
+            },
+            {
+              "functionName": "__webpack_require__",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 95044,
+              "columnNumber": 32
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 96178,
+              "columnNumber": 10
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "http://127.0.0.1:3000/static/js/bundle.js",
+              "lineNumber": 96182,
+              "columnNumber": 11
+            }
+          ]
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "info",
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "executionContextId": 7,
+      "timestamp": 1682344487263.0442,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 74554,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/cjs/react-dom.development.js",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 74575,
+            "columnNumber": 4
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95598,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95044,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95255,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/index.js",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 74646,
+            "columnNumber": 19
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95598,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95044,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95255,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./node_modules/react-dom/client.js",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 74589,
+            "columnNumber": 8
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95598,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95044,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "fn",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95255,
+            "columnNumber": 20
+          },
+          {
+            "functionName": "./src/index.js",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 1199,
+            "columnNumber": 73
+          },
+          {
+            "functionName": "options.factory",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95598,
+            "columnNumber": 30
+          },
+          {
+            "functionName": "__webpack_require__",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 95044,
+            "columnNumber": 32
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 96180,
+            "columnNumber": 36
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 96182,
+            "columnNumber": 11
+          }
+        ]
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.navigatedWithinDocument",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "url": "http://127.0.0.1:3000/"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 1157150.40595
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "DOMContentLoaded",
+      "timestamp": 1157150.40595
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketWillSendHandshakeRequest",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.407618,
+      "wallTime": 1682344487.43828,
+      "request": {
+        "headers": {
+          "Pragma": "no-cache",
+          "Origin": "http://127.0.0.1:3000",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "127.0.0.1:3000",
+          "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+          "Sec-WebSocket-Key": "C3y+6ln4Dyt11K23OyI0pw==",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "Upgrade": "websocket",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits"
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 1157150.408466
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "load",
+      "timestamp": 1157150.408466
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "error",
+      "args": [
+        {
+          "type": "string",
+          "value": "Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s"
+        },
+        {
+          "type": "string",
+          "value": "[object Object]"
+        },
+        {
+          "type": "string",
+          "value": "\n    at div\n    at http://127.0.0.1:3000/static/js/bundle.js:2752:66\n    at Box (http://127.0.0.1:3000/static/js/bundle.js:9670:72)\n    at div\n    at http://127.0.0.1:3000/static/js/bundle.js:2752:66\n    at Toolbar (http://127.0.0.1:3000/static/js/bundle.js:6988:82)\n    at nav\n    at http://127.0.0.1:3000/static/js/bundle.js:2752:66\n    at Paper (http://127.0.0.1:3000/static/js/bundle.js:6794:83)\n    at http://127.0.0.1:3000/static/js/bundle.js:2752:66\n    at AppBar (http://127.0.0.1:3000/static/js/bundle.js:4792:83)\n    at Header\n    at AddEmployee\n    at RenderedRoute (http://127.0.0.1:3000/static/js/bundle.js:79830:5)\n    at Outlet (http://127.0.0.1:3000/static/js/bundle.js:80235:26)\n    at div\n    at http://127.0.0.1:3000/static/js/bundle.js:2752:66\n    at Container (http://127.0.0.1:3000/static/js/bundle.js:8831:19)\n    at Root\n    at RenderedRoute (http://127.0.0.1:3000/static/js/bundle.js:79830:5)\n    at RenderErrorBoundary (http://127.0.0.1:3000/static/js/bundle.js:79781:5)\n    at Routes (http://127.0.0.1:3000/static/js/bundle.js:80320:5)\n    at Router (http://127.0.0.1:3000/static/js/bundle.js:80258:15)\n    at RouterProvider (http://127.0.0.1:3000/static/js/bundle.js:80104:5)\n    at Provider (http://127.0.0.1:3000/static/js/bundle.js:75775:5)"
+        }
+      ],
+      "executionContextId": 7,
+      "timestamp": 1682344487472.413,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "printWarning",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 48894,
+            "columnNumber": 33
+          },
+          {
+            "functionName": "error",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 48871,
+            "columnNumber": 10
+          },
+          {
+            "functionName": "warnOnInvalidKey",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 62111,
+            "columnNumber": 14
+          },
+          {
+            "functionName": "reconcileChildrenArray",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 62143,
+            "columnNumber": 24
+          },
+          {
+            "functionName": "reconcileChildFibers",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 62546,
+            "columnNumber": 19
+          },
+          {
+            "functionName": "reconcileChildren",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 65478,
+            "columnNumber": 31
+          },
+          {
+            "functionName": "updateHostComponent",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 66122,
+            "columnNumber": 6
+          },
+          {
+            "functionName": "beginWork",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 67567,
+            "columnNumber": 17
+          },
+          {
+            "functionName": "beginWork$1",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 72506,
+            "columnNumber": 17
+          },
+          {
+            "functionName": "performUnitOfWork",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 71775,
+            "columnNumber": 15
+          },
+          {
+            "functionName": "workLoopSync",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 71698,
+            "columnNumber": 8
+          },
+          {
+            "functionName": "renderRootSync",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 71671,
+            "columnNumber": 10
+          },
+          {
+            "functionName": "performConcurrentWorkOnRoot",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 71065,
+            "columnNumber": 77
+          },
+          {
+            "functionName": "workLoop",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 86913,
+            "columnNumber": 37
+          },
+          {
+            "functionName": "flushWork",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 86891,
+            "columnNumber": 17
+          },
+          {
+            "functionName": "performWorkUntilDeadline",
+            "scriptId": "13",
+            "url": "http://127.0.0.1:3000/static/js/bundle.js",
+            "lineNumber": 87128,
+            "columnNumber": 24
+          }
+        ],
+        "parentId": {
+          "id": "1",
+          "debuggerId": "9063614317788076387.8540110304211662614"
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "17728.45",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "Referer": "http://127.0.0.1:3000/",
+          "Origin": "http://127.0.0.1:3000",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157150.499116,
+      "wallTime": 1682344487.52985,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "17728.31",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "Referer": "http://127.0.0.1:3000/",
+          "Origin": "http://127.0.0.1:3000",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157150.499515,
+      "wallTime": 1682344487.530264,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketHandshakeResponseReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.537536,
+      "response": {
+        "status": 101,
+        "statusText": "Switching Protocols",
+        "headers": {
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Accept": "iu5R20ZhATnfjVE4Kt65gvolAuk=",
+          "Upgrade": "websocket"
+        },
+        "headersText": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: iu5R20ZhATnfjVE4Kt65gvolAuk=\r\n\r\n",
+        "requestHeaders": {
+          "Pragma": "no-cache",
+          "Origin": "http://127.0.0.1:3000",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "127.0.0.1:3000",
+          "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+          "Sec-WebSocket-Key": "C3y+6ln4Dyt11K23OyI0pw==",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "Upgrade": "websocket",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits"
+        },
+        "requestHeadersText": "GET ws://127.0.0.1:3000/ws HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\r\nUpgrade: websocket\r\nOrigin: http://127.0.0.1:3000\r\nSec-WebSocket-Version: 13\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7\r\nSec-WebSocket-Key: C3y+6ln4Dyt11K23OyI0pw==\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n\r\n"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "17728.45",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Origin": "http://127.0.0.1:3000",
+        "Referer": "http://127.0.0.1:3000/",
+        "Sec-Fetch-Dest": "font",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157150.557891
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "PreflightWarn"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "17728.31",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Origin": "http://127.0.0.1:3000",
+        "Referer": "http://127.0.0.1:3000/",
+        "Sec-Fetch-Dest": "font",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157150.558431
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "PreflightWarn"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.560635,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"hot\"}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "17728.45",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Length": "15920",
+        "Content-Type": "font/woff2",
+        "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+        "ETag": "W/\"3e30-I872mT3bKyl56Odkf8N2NpTiun0\"",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: font/woff2\r\nAccept-Ranges: bytes\r\nContent-Length: 15920\r\nETag: W/\"3e30-I872mT3bKyl56Odkf8N2NpTiun0\"\r\nDate: Mon, 24 Apr 2023 13:54:47 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "17728.61",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/manifest.json",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "Referer": "http://127.0.0.1:3000/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157150.561647,
+      "wallTime": 1682344487.59267,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Manifest",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "17728.61",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Referer": "http://127.0.0.1:3000/",
+        "Sec-Fetch-Dest": "manifest",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157150.563693
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "PreflightWarn"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "17728.31",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "keep-alive",
+        "Content-Length": "15744",
+        "Content-Type": "font/woff2",
+        "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+        "ETag": "W/\"3d80-fKnFln87uL/+qyS2ObScHn0D+lI\"",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nContent-Type: font/woff2\r\nAccept-Ranges: bytes\r\nContent-Length: 15744\r\nETag: W/\"3d80-fKnFln87uL/+qyS2ObScHn0D+lI\"\r\nDate: Mon, 24 Apr 2023 13:54:47 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.56909,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"liveReload\"}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.56979,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"reconnect\",\"data\":10}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.570975,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"overlay\",\"data\":{\"errors\":true,\"warnings\":false}}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.571659,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"hash\",\"data\":\"94d976277b011bc2349f\"}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "17728.4",
+      "timestamp": 1157150.572299,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "{\"type\":\"ok\"}"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "17728.45",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157150.574077,
+      "type": "Font",
+      "response": {
+        "url": "http://127.0.0.1:3000/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+          "ETag": "W/\"3e30-I872mT3bKyl56Odkf8N2NpTiun0\"",
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "font/woff2",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "15920",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 28,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 339,
+        "timing": {
+          "requestTime": 1157150.557891,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.86,
+          "sendEnd": 1.009,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 4.122
+        },
+        "responseTime": 1682344487591.465,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.45",
+      "timestamp": 1157150.574419,
+      "dataLength": 15920,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.45",
+      "timestamp": 1157150.577567,
+      "dataLength": 0,
+      "encodedDataLength": 15920
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "17728.45",
+      "timestamp": 1157150.56319,
+      "encodedDataLength": 16259,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "17728.61",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "303",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+        "ETag": "W/\"12f-1876c99924c\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Mon, 10 Apr 2023 19:16:56 GMT",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Mon, 10 Apr 2023 19:16:56 GMT\r\nETag: W/\"12f-1876c99924c\"\r\nContent-Type: application/json; charset=UTF-8\r\nContent-Length: 303\r\nVary: Accept-Encoding\r\nDate: Mon, 24 Apr 2023 13:54:47 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "17728.62",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "documentURL": "http://127.0.0.1:3000/",
+      "request": {
+        "url": "http://127.0.0.1:3000/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "Referer": "http://127.0.0.1:3000/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1157150.580031,
+      "wallTime": 1682344487.61107,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Other",
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "hasUserGesture": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "17728.62",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Connection": "keep-alive",
+        "Host": "127.0.0.1:3000",
+        "Referer": "http://127.0.0.1:3000/",
+        "Sec-Fetch-Dest": "image",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "connectTiming": {
+        "requestTime": 1157150.581178
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "PreflightWarn"
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "17728.31",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157150.58246,
+      "type": "Font",
+      "response": {
+        "url": "http://127.0.0.1:3000/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+          "ETag": "W/\"3d80-fKnFln87uL/+qyS2ObScHn0D+lI\"",
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "font/woff2",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "15744",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 39,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 339,
+        "timing": {
+          "requestTime": 1157150.558431,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.602,
+          "sendEnd": 0.713,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 8.42
+        },
+        "responseTime": 1682344487594.536,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.31",
+      "timestamp": 1157150.582687,
+      "dataLength": 15744,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.31",
+      "timestamp": 1157150.586992,
+      "dataLength": 0,
+      "encodedDataLength": 15744
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "17728.31",
+      "timestamp": 1157150.567827,
+      "encodedDataLength": 16083,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "17728.62",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "image/x-icon",
+        "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+        "ETag": "W/\"f1e-1872de2cff8\"",
+        "Keep-Alive": "timeout=5",
+        "Last-Modified": "Wed, 29 Mar 2023 15:00:51 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding",
+        "X-Powered-By": "Express"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Wed, 29 Mar 2023 15:00:51 GMT\r\nETag: W/\"f1e-1872de2cff8\"\r\nContent-Type: image/x-icon\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Mon, 24 Apr 2023 13:54:47 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "17728.61",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157150.588674,
+      "type": "Manifest",
+      "response": {
+        "url": "http://127.0.0.1:3000/manifest.json",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+          "Last-Modified": "Mon, 10 Apr 2023 19:16:56 GMT",
+          "ETag": "W/\"12f-1876c99924c\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "application/json; charset=UTF-8",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Content-Length": "303",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "application/json",
+        "connectionReused": false,
+        "connectionId": 66,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 444,
+        "timing": {
+          "requestTime": 1157150.563693,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 1.203,
+          "dnsEnd": 1.428,
+          "connectStart": 1.428,
+          "connectEnd": 2.054,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 2.584,
+          "sendEnd": 2.815,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 15.426
+        },
+        "responseTime": 1682344487607.6,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.61",
+      "timestamp": 1157150.588997,
+      "dataLength": 303,
+      "encodedDataLength": 0
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.61",
+      "timestamp": 1157150.5984,
+      "dataLength": 0,
+      "encodedDataLength": 303
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "17728.61",
+      "timestamp": 1157150.579904,
+      "encodedDataLength": 747,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "17728.62",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "timestamp": 1157150.602539,
+      "type": "Other",
+      "response": {
+        "url": "http://127.0.0.1:3000/favicon.ico",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Mon, 24 Apr 2023 13:54:47 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Wed, 29 Mar 2023 15:00:51 GMT",
+          "ETag": "W/\"f1e-1872de2cff8\"",
+          "X-Powered-By": "Express",
+          "Vary": "Accept-Encoding",
+          "Access-Control-Allow-Methods": "*",
+          "Content-Type": "image/x-icon",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "*",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "image/x-icon",
+        "connectionReused": true,
+        "connectionId": 39,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 3000,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 456,
+        "timing": {
+          "requestTime": 1157150.581178,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 4.847,
+          "sendEnd": 5.054,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 15.356
+        },
+        "responseTime": 1682344487626.274,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "17728.62",
+      "timestamp": 1157150.607656,
+      "dataLength": 3870,
+      "encodedDataLength": 3473
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "17728.62",
+      "timestamp": 1157150.607188,
+      "encodedDataLength": 3934,
+      "shouldReportCorbBlocking": false
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "firstPaint",
+      "timestamp": 1157150.70338
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "firstContentfulPaint",
+      "timestamp": 1157150.70338
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 1157150.70338
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "networkAlmostIdle",
+      "timestamp": 1157150.587022
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 1157150.70338
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "networkIdle",
+      "timestamp": 1157150.609645
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "9E86C7606FC0604F9251F1CDAD7315FC",
+      "loaderId": "4C63295EE6A3F557BFDE5A88038D0348",
+      "name": "InteractiveTime",
+      "timestamp": 1157155.705994
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  },
+  {
+    "method": "Runtime.executionContextCreated",
+    "params": {
+      "context": {
+        "id": 9,
+        "origin": "",
+        "name": "lighthouse_isolated_context",
+        "uniqueId": "-571155957760574136.-2057641063557012966",
+        "auxData": {
+          "isDefault": false,
+          "type": "isolated",
+          "frameId": "9E86C7606FC0604F9251F1CDAD7315FC"
+        }
+      }
+    },
+    "sessionId": "39EB117034ACC4DEBF34FC69929200C6"
+  }
+]

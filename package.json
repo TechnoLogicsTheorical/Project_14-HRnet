@@ -25,7 +25,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
-        "report": "lighthouse --screenEmulation.disabled --throttling-method=provided --no-emulatedUserAgent --throttling.cpuSlowdownMultiplier=6 http://127.0.0.1:8080 --output=html,json --output-path=lighthouseReports/putTheName --locale=fr --save-assets --view"
+        "report": "lighthouse --screenEmulation.disabled --throttling-method=provided --no-emulatedUserAgent --throttling.cpuSlowdownMultiplier=6 http://127.0.0.1:3000 --output=html,json --output-path=lighthouseReports/putTheName --locale=fr --save-assets --view"
     },
     "eslintConfig": {
         "extends": [
