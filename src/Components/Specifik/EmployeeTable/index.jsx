@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { columnsConfiguration } from '../../../utils/Constants/tableColumnsConfig.js';
 import DataTable from 'react-data-table-component';
 
@@ -9,10 +9,23 @@ import DataTable from 'react-data-table-component';
  * @constructor
  */
 export default function EmployeeTable({employeesList}) {
+    const [currentPage, setCurrentPage] = useState(1);
+    const [pageLength, setPageLength] = useState(10);
+
+    const paginatedData = employeesList.slice(
+        (currentPage - 1) * pageLength,
+        currentPage * pageLength
+    );
     return (
-        <DataTable
-            columns={columnsConfiguration}
-            data={employeesList}
-        />
+        <>
+            <DataTable
+                columns={columnsConfiguration}
+                data={paginatedData}
+                pagination
+                paginationPerPage={pageLength}
+                paginationTotalRows={employeesList.length}
+            />
+        </>
+
     );
 };
