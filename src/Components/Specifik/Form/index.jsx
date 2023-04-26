@@ -28,7 +28,6 @@ const FormLabelContainer = styled.div`
   display: inline-block;
   font-size: 18px;
   font-style: italic;
-  color: lightgray;
   margin: 10px;
   width: 326px;
 `;
@@ -45,7 +44,7 @@ const FormSubmitButton = styled.input`
   margin: 20px auto;
   padding: 12px 18px;
   color: white;
-  background-color: #007fff;
+  background-color: #004181;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -132,12 +131,20 @@ export default function Form() {
 
                 <FormLabelContainer>
                     <label htmlFor="date-of-birth">Date of Birth</label>
-                    <DatePickerInput stateProp={dateBirthday} changeFunction={(date) => setDateBirthday(date)} />
+                    <DatePickerInput
+                        id="date-of-birth"
+                        stateProp={dateBirthday}
+                        changeFunction={(date) => setDateBirthday(date)}
+                    />
                 </FormLabelContainer>
 
                 <FormLabelContainer>
                     <label htmlFor="start-date">Start Date</label>
-                    <DatePickerInput stateProp={startDate} changeFunction={(date) => setStartDate(date)} />
+                    <DatePickerInput
+                        id="start-date"
+                        stateProp={startDate}
+                        changeFunction={(date) => setStartDate(date)}
+                    />
                 </FormLabelContainer>
 
                 <FieldSetElement>
