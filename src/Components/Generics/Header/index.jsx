@@ -7,13 +7,22 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
-const listEmployeePage = <NavLink to='/list'>List Employee</NavLink>
-const addEmployeePage = <NavLink to='/'>Add Employee</NavLink>
+import styled from 'styled-components';
+const RouterLink = styled(NavLink)`
+  text-decoration: none;
+  color: white;
+  &:visited {
+    color: white; 
+  }
+`;
+
+const listEmployeePage = <RouterLink to='/list'>List Employee</RouterLink>
+const addEmployeePage = <RouterLink to='/'>Add Employee</RouterLink>
 const navItems = [listEmployeePage, addEmployeePage];
 
 /**
- * Composant f
- * @returns {JSX.Element}
+ * Composant d'entête de page utilisant les liens de routages des pages
+ * @returns {JSX.Element} Les éléments HTML nécessaires
  * @constructor
  */
 export default function Header() {
@@ -29,8 +38,8 @@ export default function Header() {
                         HRnet
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                        {navItems.map((item) => (
-                            <Button key={item} sx={{ color: '#fff' }}>
+                        {navItems.map((item, index) => (
+                            <Button key={index} sx={{ color: '#fff' }}>
                                 {item}
                             </Button>
                         ))}
