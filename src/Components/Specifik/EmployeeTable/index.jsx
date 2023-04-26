@@ -1,55 +1,13 @@
 import React from 'react';
+import { columnsConfiguration } from '../../../utils/Constants/tableColumnsConfig.js';
 import DataTable from 'react-data-table-component';
 
-const columnsConfiguration = [
-    {
-        name: 'First Name',
-        selector: row => row.firstName,
-        sortable: true,
-    },
-    {
-        name: 'Last Name',
-        selector: row => row.lastName,
-        sortable: true,
-    },
-    {
-        name: 'Birthday Date',
-        selector: row => row.birthDate,
-        sortable: true,
-    },
-    {
-        name: 'Start Date',
-        selector: row => row.startDate,
-        sortable: true,
-    },
-    {
-        name: 'Street',
-        selector: row => row.street,
-        sortable: true,
-    },
-    {
-        name: 'City',
-        selector: row => row.city,
-        sortable: true,
-    },
-    {
-        name: 'States',
-        selector: row => row.states,
-        sortable: true,
-    },
-    {
-        name: 'Zip Code',
-        selector: row => row.zipCode,
-        sortable: true,
-    },
-    {
-        name: 'Department',
-        selector: row => row.department,
-        sortable: true,
-    },
-
-];
-
+/**
+ * Composant d'affichage de valeur dans un tableau générée
+ * @param {array} employeesList Les valeurs contenant des objets avec des propriètes correspondents aux informations d'un employé.
+ * @returns {JSX.Element} Les éléments HTML nécessaires
+ * @constructor
+ */
 export default function EmployeeTable({employeesList}) {
     return (
         <DataTable
