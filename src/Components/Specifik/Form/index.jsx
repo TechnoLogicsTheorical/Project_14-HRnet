@@ -59,6 +59,11 @@ const FieldSetElement = styled.fieldset`
   justify-content: space-around;
 `;
 
+/**
+ * Composant Formulaire ayant des sous-composants d'affichage et de gestion des champs utilisateurs destiné à l'usage de fonctionnalité d'ajout d'un employé
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export default function Form() {
     const navigate = useNavigate();
     function handleSubmit(event) {

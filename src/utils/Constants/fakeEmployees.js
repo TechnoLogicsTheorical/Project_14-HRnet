@@ -1,5 +1,8 @@
 import Employee from '../Functions/employeeObject.js';
 
+/**
+ * Liste de faux employées permettant d'avoir de la donnée factice affichable dans la fonctionnalité page d'affichage du tableau.
+ */
 export const fakeEmployees = [
     Employee(
         "John",

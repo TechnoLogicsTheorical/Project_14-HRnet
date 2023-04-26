@@ -14,7 +14,7 @@ const SelectInput = styled.select`
  * @param {array} arrayList Liste d'élément dans un tableau
  * @param {string} name Nom correspondant à l'élément envoyé
  * @param {string} id Identifiant unique de l'élément
- * @returns {JSX.Element}
+ * @returns {JSX.Element} Les éléments HTML nécessaires
  * @constructor
  */
 export default function Select({arrayList, name, id}) {

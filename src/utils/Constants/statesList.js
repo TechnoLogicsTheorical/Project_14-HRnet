@@ -1,3 +1,6 @@
+/**
+ * Liste des différents états de la region des États-Unis permettant la génération d'un champ de formulaire de sélection.
+ */
 export const statesList = [
     {
         "name": "Alabama",

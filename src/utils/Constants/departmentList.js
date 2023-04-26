@@ -1,3 +1,6 @@
+/**
+ * Liste des départements de l'entreprise permettant la génération d'un champ de formulaire de sélection.
+ */
 export const departmentList = [
     {
         name: 'Sales',
