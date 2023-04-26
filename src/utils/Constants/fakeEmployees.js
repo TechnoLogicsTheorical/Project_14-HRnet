@@ -25,5 +25,38 @@ export const fakeEmployees = [
         "Illinois",
         "57780",
         "Manager",
+    ),
+    Employee(
+        "Anthony",
+        "Marc...",
+        "1990-10-12",
+        "2001-06-26",
+        "Canada Street",
+        "Canada",
+        "Quebec",
+        "11246",
+        "Humain Research",
+    ),
+    Employee(
+        'Louis',
+        "Delplace",
+        "1996-10-10",
+        "2014-01-24",
+        "Rue Maulois",
+        "Melun",
+        "France",
+        "77000",
+        "Sales",
+    ),
+    Employee(
+        "Hamadou",
+        "Cisocko",
+        "1990-03-12",
+        "2020-12-12",
+        "Avenue Jean-Baptise",
+        "Maulois",
+        "France",
+        "11223",
+        "Sales"
     )
 ]
